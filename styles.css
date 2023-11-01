@@ -1,0 +1,263 @@
+main {
+    background: #333;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img1 {
+    display: flex;
+}
+
+.text1 {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.p {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.white-background {
+    background: #FFF;
+    padding: 20px;
+    text-align: center;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
+
+    main {
+        width: 100%;
+        max-width: none;
+    }
+
+    .button-1,
+    .button-2 {
+        width: 100%;
+    }
+
+    .text-under-button {
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+
+    main {
+        width: 100%;
+        max-width: 1280px;
+
+    }
+
+
+    .button-1,
+    .button-2 {
+        width: auto;
+    }
+
+    .text-under-button {
+        font-size: 18px;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left-content {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+}
+
+
+.right-content {
+    flex: 1;
+    text-align: right;
+    padding: 20px;
+}
+
+
+nav {
+    background: #333;
+    padding: 10px 0;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    background-color: #444;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+main h1 {
+    color: #C890FF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.subtitle {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.event-date {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button-1 {
+    display: flex;
+    width: 167px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #FFF;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+
+.button-2 {
+    display: flex;
+    width: 167px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #FFF;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.text-under-button {
+    display: flex;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.izquierda {
+    width: 50%;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #333;
+    width: 740px;
+    height: 472px;
+}
+
+.derecha {
+    width: 50%;
+    float: right;
+    width: 531px;
+    height: 472px;
+    flex-shrink: 0;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
